@@ -6,7 +6,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-
+library(tidyverse)
 library(shiny)
 
 master_data <- list(faithful = faithful, mtcars = mtcars, diamonds = diamonds)
